@@ -1,0 +1,10 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+.classpath
+.project
+.settings
+.idea
+*.iml
+node_modules/
+target/
+.idea/
+npm-debug.log*
