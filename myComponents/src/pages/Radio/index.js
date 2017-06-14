@@ -8,7 +8,7 @@ class Radio extends React.PureComponent {
     return (
         <RadioComponent
             name={'女'}
-            checked={false}
+            checked={true}
             onChange={() => this.onChange()}
         />
     )
