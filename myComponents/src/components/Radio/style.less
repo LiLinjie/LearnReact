@@ -1,0 +1,37 @@
+.ui-radio {
+    position: relative;
+    .input-hidden {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: .44rem;
+        height: .44rem;
+        opacity: 0;
+    }
+    .ui-radio-body {
+        display: block;
+        width: .44rem;
+        height: .44rem;
+        text-align: center;
+        line-height: .44rem;
+        border: 1px solid #c7c7cd;
+        border-radius: .44rem;
+        transition: .5s;
+    }
+    .iconfont {
+        display: block;
+        color: #fff;
+        font-size: .22rem;
+        transform: scale(0);
+        transition: .5s;
+    }
+    .input-hidden:checked {
+        & + .ui-radio-body {
+            background: #ff566b;
+            border-color: #ff566b;
+            .iconfont {
+                transform: scale(1);
+            }
+        }
+    }
+}
